@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/ccd5fd51d7.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+    <title>Weather App</title>
+</head>
+
+<body>
+    <div class="container">
+            <button id="location">Current</button>
+            <div class="input-group mb-6">
+                <input type="text" class="form-control" placeholder="Enter the city" aria-label="Enter the city"
+                    id="search-input" aria-describedby="basic-addon2">
+                <span class="input-group-text" id="basic-addon2">Submit</span>
+            </div>
+            <div class="border rounded">
+                <h1>
+                </h1>
+            </div>
+            <br />
+            <div class="row basic">
+                <div class="col-6">
+                    <h2>
+                        <img src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png" alt="" id="icon" />
+                        <span id="change-system"></span> <span class="choose-system-E" id="celsius"> ℃
+                        </span>
+                    </h2>
+                    <h3>
+                    </h3>
+                </div>
+                <div class="col-6">
+                    </br>
+                    <ul>
+                        <li>
+                            Wind: <span id="wind-speed"></span> km\h
+                        </li>
+                        <li>
+                            Humidity: <span id="humidity"></span>
+                        </li>
+                        <li>
+
+                            Description: <span id="describe"></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <br />
+            <main class="days" id="days-temperature">
+
+            </main>
+        </div>
+<br>
+        <footer><a href="https://github.com/yonelajongola/Project-App.git" target="_blank">Open-source code</a> by
+            Yonela Jongola
+        </footer>
+    </div>
+    <script src="src/index.js"></script>
+</body>
+
+</html>

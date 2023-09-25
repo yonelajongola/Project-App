@@ -1,0 +1,57 @@
+body {
+  background-image: url("https://images.pexels.com/photos/7174994/pexels-photo-7174994.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: 110%;
+  font-family: "Times New Roman", Times, serif;
+  margin: 20px;
+}
+#location {
+  background-color: #f9f6f6;
+  border-radius: 5px;
+  border: 1px solid silver;
+  margin: 10px;
+  display: block;
+  padding: 6px 10px;
+  right: -5px;
+  top: 10px;
+  position: fixed;
+}
+#location:hover {
+  cursor: pointer;
+  background: rgba(207, 241, 9, 0.614);
+  transition: 200ms;
+}
+
+h1,
+.days {
+  text-align: center;
+}
+
+.container {
+  font-family: "Poppins", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+.card {
+  max-height: 200px;
+}
+
+.card:hover {
+  transform: scale(1.35);
+  z-index: 1
+  box-shadow: 0 18px 150px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: 200ms;
+  background: 
+}
+
+footer {
+  text-align: center;
+  font-size: 16px;
+}
+
+.temperature-min {
+  opacity: 0.6;
+}
