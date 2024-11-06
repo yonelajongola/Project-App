@@ -10,61 +10,50 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/ccd5fd51d7.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="src/styles.css" type="text/css" />
     <title>Weather App</title>
 </head>
 
 <body>
     <div class="container">
-            <button id="location">Current</button>
-            <div class="input-group mb-6">
-                <input type="text" class="form-control" placeholder="Enter the city" aria-label="Enter the city"
-                    id="search-input" aria-describedby="basic-addon2">
-                <span class="input-group-text" id="basic-addon2">Submit</span>
-            </div>
-            <div class="border rounded">
-                <h1>
-                </h1>
-            </div>
-            <br />
-            <div class="row basic">
-                <div class="col-6">
-                    <h2>
-                        <img src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png" alt="" id="icon" />
-                        <span id="change-system"></span> <span class="choose-system-E" id="celsius"> ℃
-                        </span>
-                    </h2>
-                    <h3>
-                    </h3>
-                </div>
-                <div class="col-6">
-                    </br>
-                    <ul>
-                        <li>
-                            Wind: <span id="wind-speed"></span> km\h
-                        </li>
-                        <li>
-                            Humidity: <span id="humidity"></span>
-                        </li>
-                        <li>
-
-                            Description: <span id="describe"></span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <br />
-            <main class="days" id="days-temperature">
-
-            </main>
+        <button id="location">Current</button>
+        <div class="input-group mb-6">
+            <input type="text" class="form-control" placeholder="Enter the city" aria-label="Enter the city"
+                id="search-input" aria-describedby="basic-addon2">
+            <span class="input-group-text" id="basic-addon2">Submit</span>
         </div>
-<br>
-        <footer><a href="https://github.com/yonelajongola/Project-App.git" target="_blank">Open-source code</a> by
-            Yonela Jongola
-        </footer>
+        <div class="border rounded">
+            <h1></h1>
+        </div>
+        <br />
+        <div class="row basic">
+            <div class="col-6">
+                <h2>
+                    <img src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png" alt="" id="icon" />
+                    <span id="change-system"></span> <span class="choose-system-E" id="celsius"> ℃
+                    </span>
+                </h2>
+                <h3></h3>
+            </div>
+            <div class="col-6">
+                <br />
+                <ul>
+                    <li>
+                        Wind: <span id="wind-speed"></span> km/h
+                    </li>
+                    <li>
+                        Humidity: <span id="humidity"></span>
+                    </li>
+                    <li>
+                        Description: <span id="describe"></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <br />
+        <main class="days" id="days-temperature"></main>
     </div>
-    <script src="src/index.js"></script>
-</body>
-
-</html>
+    <br>
+    <footer><a href="https://github.com/yonelajongola/Project-App.git" target="_blank">Open-source code</a> by
+        Yonela Jongola
+    </footer>
